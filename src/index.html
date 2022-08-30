@@ -1,12 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Template</title>
-</head>
-<body>
-
-</body>
+<html>
+  <head>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="plant.js"></script>
+    <title>Grow Your Plant</title>
+  </head>
+  <body>
+    <div class ="container">
+      <div class="plant-buttons">
+        <button class="btn-success" id="newPlant">New Plant</button>
+        <button class="btn-success" id="show-plant">Current Plant</button>
+      </div>
+      <hr/>
+    </div>
+    <div class="container">
+      <div class="grow-buttons">
+        <button class="btn-success" id="feed">Add soil</button>
+        <button class="btn-success" id="water">Add water</button>
+        <button class="btn-success" id="light">Add light</button>
+        <button class="btn-success" id="show-state">Current Stats</button>
+      </div>
+      <h1>This <div id="plant-value"> Values</h1>
+      <h3><div id="soil-value">0</div></h3>
+      <h3><div id="water-value">0</div></h3>
+      <h3><div id="light-value">0</div></h3>
+    </div>
+  </body>
 </html>
